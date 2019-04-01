@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.menu{
+	font-family: arial,sans-serif;
+	width:750px;
+	margin:0;
+	padding:0;
+	
+}
+.menu ul
+{
+padding:0;
+margin:0;
+list-style-type:none;
+	
+}
+.menu ul li{
+	float:left;
+	position:relative;
+	
+}
+.menu ul li a,.menu ul li:a:visited{
+	display:block;
+	text-align:centere;
+	text-decoration: none;
+	width:104px;
+	height:30px;
+	coor:#000;
+	border:1px solid #fff;
+	border-width:1px 1px 0 0 ; /*上右下左*/
+	backgrodund:#c9c9a7;
+	line-height:30px;    /*设置行间的距离*/
+	font-size:11px;
+}
+.menu ul li ul{
+	display:none;/*使下拉ul不可见*/
+}
+.menu ul li:hover a
+{
+	color
+}
+
+

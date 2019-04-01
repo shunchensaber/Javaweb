@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style type="text/css">
+p.a
+{
+	font-size: 50px;
+	color: white;
+	font-family: fantasy;
+}</style>
+<title>注册信息</title>
+</head>
+<body>
+<table style="background-image: url('image/header_bg.jpg');width: 100%">
+<tr>
+<th><!--  <img src="./image/logo.png" style="padding-left: 150px">--></th>
+	<th >
+	<p class="a" style="padding-top: 30px;padding-bottom: 0px;margin-bottom: 0px">
+	<font face="华文云彩">文件分享平台</font>
+	</th>
+	</table>
+	<table>
+	<form action="">
+	<tr>
+	<input type="text" name="userid" >
+	</tr>
+	<tr>
+	<input type="password" name="userpass">
+	</tr>
+	<tr>
+	<th>
+	<input type="radio" name="sex" value="male" checked="checked"></th>
+	<th><input type="radio" name="sex" value="female"></th>
+	</tr>
+	
+	</form>
+	</table>
+
+</body>
+</html>

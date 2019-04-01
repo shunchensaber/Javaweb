@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.header
+{
+	background-image: url('./image/header_bg.jpg')
+	  min-width:1200px;
+           margin:0 auto;
+}

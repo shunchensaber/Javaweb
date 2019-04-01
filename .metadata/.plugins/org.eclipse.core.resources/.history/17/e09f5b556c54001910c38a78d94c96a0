@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Check login</title>
+</head>
+<body>
+
+<%
+String id = request.getParameter("id");
+String pass = request.getParameter("password");
+out.print(id);
+out.print(pass);
+if((id=="开心小麻花"||id=="开心小龙虾")&&pass=="123456")
+	
+	response.sendRedirect("error.html");
+
+else{
+	response.sendRedirect("MyHomePage.jsp");
+}
+%>
+</body>
+</html>

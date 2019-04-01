@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.header
+{
+	background-image: url('./image/header_bg.jpg')
+	  min-width:1200px;
+           margin:0 auto;
+}
+#header
+{
+	background-color: green;
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+	font-family:serif;
+	font-size: 90%;
+	background-image: url("image/header_bg.jpg");
+	
+}

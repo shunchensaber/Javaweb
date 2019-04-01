@@ -1,0 +1,27 @@
+@charset "UTF-8";
+#header
+{
+	background-color: green;
+	text-align: center;
+	margin: 0px;
+	padding: 50px;
+	font-family:serif;
+	font-size: 90%;
+	background-image: url("image/header_bg.jpg");
+	background-size: 100% auto;width:100%;height:1024px
+	
+	
+}
+p.a
+{
+	font-size: 50px;
+	color: white;
+	font-family: fantasy;
+}
+#cont
+{
+	position: absolute;
+	top:20px;
+	right:1000px;
+	background-image: url(image/bg.jpg);
+}

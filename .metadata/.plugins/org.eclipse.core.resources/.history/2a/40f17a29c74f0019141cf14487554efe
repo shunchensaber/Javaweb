@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<link
+href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css"
+rel="stylesheet" />
+<style type="text/css">@import url("Myhomepage.css");</style>
+<meta charset="UTF-8">
+<title>代码查重系统</title>
+</head>
+<body>
+
+<div id="head">
+
+<table style="background-image: url('image/header_bg.jpg');width: 100%">
+<tr>
+<th><img src="./image/logo.png" style="padding-left: 10px"></th>
+	<th ><p class="a"><font face="华文云彩">代码查重系统</font></th></table>
+	
+</div>
+ 
+	账户名<input type="text" name="username" placeholder="请输入账号"><br>
+	密码<input type="password" name="password" placeholder="请输入密码">
+
+	 
+	            
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">@import url("Myhomepage.css");</style>
+<meta charset="UTF-8">
+<title>代码查重系统</title>
+</head>
+<body>
+
+<div id="head">
+<table style="background-image: url('image/header_bg.jpg');width: 100%"><tr><th><img src="./image/logo.png"></th>
+	<th ><p class="a">南京工程学院代码查重系统</th></table>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>李白的诗</title>
+</head>
+<body bgcolor="yellow" text = rgb(255,0,0)>
+<p align="center"> 
+<b>静夜思<br/></b> 
+李白<br><p/>
+<hr> 
+<!-- hr 下划线-->
+<!-- <b>加粗 -->
+<p align="center">
+床前明月光，疑是地上霜。<br/>
+举头望明月，低头思故乡。
+</p>
+<p align = "center">
+【说明】就寝时窗前洒满了月光，如同降了一地白霜。<br/>
+抬头一望，一轮皓月，千里清光，月是故乡明，岂能不安乡?<br/>
+本市简明地描绘了月夜的美景，真切得抒发了游子思恋故乡的深情。
+</p>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+@import url("Myhomepage.css");
+</style>
+<meta charset="UTF-8">
+<title>用户登录</title>
+</head>
+<body>
+
+
+<div class ='header'>
+<img alt="图片显示出错" src="image/logo.png">
+
+</div>
+<form action="" >
+用户名:<input type ="text" name = "name">
+<br>
+密码：<input tyep = "password" name = "password">
+<br>
+<button type="submmit" name ="subbmit">提交</button>
+<button tyoe ="reset" name ="reset">重置</button>
+</form>
+
+
+
+</body>
+</html>

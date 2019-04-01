@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>表格标记例子</title>
+<style>
+body{
+	background :url('star.gif');
+	}
+
+    </style>
+</head>
+<body link = "#FFAA00" style="background-attachment:fixed">
+<bgsound src="bg.mp3" loop="1">
+<audio controls><source src="bg.mp3" />
+</audio>
+<table align="center" border="2" width ="54%" height="50%">
+<caption><font size="6" color = purple face="华文彩云"><b>我的驿站</b></font></caption>
+<tr align ="center"><td colspan=1 rowspan=4 width="47%">
+<img border="0" src = "qiaoen.jpg" width="500" height="410"></td>
+<td height="100" colspan=2  rowspan =1>
+<font size =5 color =pink face ="方正舒体"><b><i>欢迎来到我的驿站</i></b></font></td>
+</tr>
+<tr align ="center">
+<td height ="121" width ="15%" ><a href="flower.html"><b>我的花园</b></a></td>
+<td width ="12%"><a href="music.html"><b>我的音乐</b></a></td></tr>
+<tr align ="center">
+<td height="85" width="15%"><a href ="#"><b>我的足球</b></a></td>
+<td width ="12%"><a href="#"><b>我的相册</b></a></td></tr>
+
+</table>
+<center><p><font size="2" color=green>版权所有 2019-2020</font></center>
+</body>
+</html>

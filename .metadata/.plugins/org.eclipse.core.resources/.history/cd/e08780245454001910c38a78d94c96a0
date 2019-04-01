@@ -1,0 +1,21 @@
+   @charset "UTF-8";
+TABLE{
+	background: blue;
+	border-collapse: separate;
+	border-spacing:10pt;
+	border-top: 15px solid red;
+	border-left: 15px soid red;
+	border-right: 5px dashed black;
+	border-bottom: 10px dashed blue; 
+}
+TD,TH
+{
+	background: white;
+	border:outset 5pt;
+	horizontal-align:rignt;
+}
+caption
+{
+	border:ride 5pt blue;
+	border-top :ridge 10pt blue;
+}

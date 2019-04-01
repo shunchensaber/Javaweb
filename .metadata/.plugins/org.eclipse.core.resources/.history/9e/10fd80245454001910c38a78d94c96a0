@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Html Table</title>
+</head>
+<style >
+@import url(text.css)
+</style>
+<body>
+<table>
+<caption>员工和销售业绩</caption>
+<thead><tr><th>姓名</th><th>销售业绩</th></tr></thead>
+<tbody>
+<tr><td>金威华</td><td>600.0</td></tr>
+<tr><td>詹姆斯</td><td>600.0</td></tr>
+<tr><td>武虎山</td><td>600.0</td></tr>
+
+</tbody>
+<tfoot>
+<tr><td colspan="2">同志们继续努力哦！</td></tr>
+</tfoot>
+</table>
+</body>
+
+
+
+</html>

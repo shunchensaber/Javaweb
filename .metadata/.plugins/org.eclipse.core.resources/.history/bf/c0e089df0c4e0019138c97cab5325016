@@ -1,0 +1,5 @@
+@charset "UTF-8";
+.header
+{
+	background-image: url('./image/header_bg.jpg')
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>欢迎</title>
+<style type="text/css">
+body{
+		margin:0px;
+		padding:0px;
+		background-image: url(../img.star.gif) # fefefe no-repeat right bottom;
+		font-family:'lucida grandle','lucida sans unicode','宋体','新宋体'，arial,verdana
+		,sans-serif;
+		color:#666;
+		font-size:12px;
+		line-height:150%;}
+#header{
+		margin:0px auto;
+		border:0px;
+		background:#ccd3de;
+		width:580px;
+		height:60px;}
+#mainbox{
+		margin:0px auto;
+		width:580px;
+		background:#FFFFFF;}
+#menu{
+		float:right;
+		margin:2px 0px 2px 0px;
+		padding:0px 0px 0px 0px;
+		width:400px;
+		background:#ccd2de;
+		}
+#siderbar{
+		float:left;
+		margin:2px 2px 0px 0px;
+		padding:0px;
+		background:F2F3F7;
+		width:170px;}
+#content{
+		float:right;
+		margin:1px 0px 2px 0px;
+		padding:0px;
+		width:400px;
+		background:#E0EFDE;
+		}
+#footer{
+		clear:both;
+		margin:0px auto;
+		padding :5px 0px 5px 0px;
+		background:#ccd2de;height:40px;width:580px;}
+</style>
+</head>
+<body>
+<div id="header">这里是header</div>
+<div id="mainbox">
+<div id="menu">这里是menu</div>
+<div id ="sidebar">这里是sidebar</div>
+<div id = "content">
+<p>这里是#content</p>
+<p>这里是主要内容</p>
+<p>这里是主要内容</p>
+</div></div>
+<div id ="footer">这里是footer</div>
+</body>
+</html>

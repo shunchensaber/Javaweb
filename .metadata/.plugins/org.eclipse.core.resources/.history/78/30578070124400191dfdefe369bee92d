@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<link
+href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css"
+rel="stylesheet" />
+<style type="text/css">@import url("Myhomepage.css");</style>
+<meta charset="UTF-8">
+<title>代码查重系统</title>
+</head>
+<body>
+
+<div id="head">
+<table style="background-image: url('image/header_bg.jpg');width: 100%"><tr><th><img src="./image/logo.png"></th>
+	<th ><p class="a"><font face="华文云彩">代码查重系统</font></th></table>
+	
+</div>
+<!--  
+	账户名<input type="text" name="username" placeholder="请输入账号"><br>
+	密码<input type="password" name="password" placeholder="请输入密码">-->
+	  <form id="form1" class="well"          style="width: 30em; margin: auto; margin-top: 150px;margin-right: 2px"> 
+	           <h3>用户登录</h3>          
+	           <div class=" input-group input-group-md">             
+	            <span class="input-group-addon" id="sizing-addon1">
+	            <i                   class="glyphicon glyphicon-user" ></i></span>                    
+	            <input id="userName" type="text" class="form-control" />                             
+	            </div>          <br />          <div class="input-group input-group-md">              
+	            <span class="input-group-addon" id="sizing-addon1">
+	            <i class="glyphicon glyphicon-lock"></i></span>                    
+	            <input type="password" id="password" class="form-control" />          
+	            </div>          
+	            <br/>          
+	            <button type="button" id="bn" >登录</button>		  
+	            <a class="btn btn-sm btn-white btn-block" style="text-align: right;" th:href="@{register}" href="register.html">
+	            <h6>还没有账户？前往注册</h6></a>     </form>
+
+</body>
+</html>

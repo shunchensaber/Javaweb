@@ -1,0 +1,69 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style type="text/css">
+p.a
+{
+	font-size: 50px;
+	color: white;
+	font-family: fantasy;
+}</style>
+	
+<title>注册信息</title>
+<script >
+	function login()
+	{
+		with(document.all)
+		{
+		var name = document.getElementById('useid')
+		if(name.value().length==0)
+			alert("请输入用户名")
+		var  pass = document.getElementById('userpass')
+		if(pass.value.length==0)
+			alert("请输入密码")
+		}
+
+
+	}
+</script>
+</head>
+<body>
+<table style="background-image: url('image/header_bg.jpg');width: 100%">
+<tr>
+<th><!--  <img src="./image/logo.png" style="padding-left: 150px">--></th>
+	<th >
+	<p class="a" style="padding-top: 30px;padding-bottom: 0px;margin-bottom: 0px">
+	<font face="华文云彩">文件分享平台</font>
+	</th>
+	</table>
+	<table>
+	<form action="">
+	<tr>
+	<p>姓名:<input type="text" name="userid" id ="useid" ></p>
+	</tr>
+	<tr>
+	<p>密码:<input type="password" name="userpass" id ="userpass"></p>
+	</tr>
+	<tr>
+	<td>性别：
+	男：<input type="radio" name="sex" value="male" checked="checked"></td>
+	<td>女：<input type="radio" name="sex" value="female"></td>
+	</tr>
+	
+	<tr>
+	 <td> 出生日期<input type="date" name="birthdate"></td>
+	</tr>
+	<tr>
+	<input type="submit" value="提交"  onclick="login()">
+	</tr>
+	
+	
+	</form>
+	</table>
+
+
+</body>
+</html>
