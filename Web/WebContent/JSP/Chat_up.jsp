@@ -1,3 +1,5 @@
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="java.util.Date"%>
 <%@page import="com.sun.glass.ui.CommonDialogs.Type"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -13,15 +15,37 @@
 	
 	String a =(String)(application.getAttribute("chatcontent"));
 	
-	
-	out.print(a.toString());
- 
-	if(a.equals("null"))
+	String b =(String)(request.getParameter("content"));
+	String user = (String)(session.getAttribute("username"));
+	String re="";
+	if(b==null)
 	{
-		//application.setAttribute("chatconten","");
-		out.print(a);
+		b="";
+	}
+	else
+	{
+		Date d = new Date();
+		
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+		String now = df.format(d);
+	    now = "("+now+")";
+		 re+= now+"<b>"+user+"</b>"+" 说 "+b;
+	}
+	
+ 
+	if(a==null)
+	{
+		application.setAttribute("chatcontent","");
+		
 		
 	}
+	else
+	{
+		if(b!="")
+		application.setAttribute("chatcontent",a+"<br>"+re);
+	}
+	out.print(application.getAttribute("chatcontent"));
 
 %>
 </body>

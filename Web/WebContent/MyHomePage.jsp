@@ -53,7 +53,7 @@
 			</div>
 			<div class="lgD">
 				
-				<input type="text" id="password" name="password"
+				<input type="password" id="password" name="password"
 					placeholder="输入用户密码" style = "width: 280px;margin-left: 20px;"/>
 			</div>
 			<div class="logC">
